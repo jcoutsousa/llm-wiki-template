@@ -1,0 +1,13 @@
+# Extracted markdown from PDFs (regenerate from source PDFs)
+raw/papers/*.md
+
+# Large extracted text files (optional)
+raw/extracted/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
