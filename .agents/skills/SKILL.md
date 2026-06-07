@@ -1,6 +1,7 @@
 ---
 name: setup-llm-wiki
-description: Initialize and configure LLM Wiki knowledge bases with directory structure, schema, and ingestion workflows. Platform-agnostic for use with any coding assistant (Claude Code, GitHub Copilot, Cursor, OpenCode, Kilo, etc.). Use when user wants to create a personal knowledge base, set up wiki infrastructure, or bootstrap an LLM-powered documentation system.
+description: "Initialize and configure LLM-powered knowledge bases with directory structure, schema, and ingestion workflows. Platform-agnostic for any coding assistant. WHEN: set up wiki, personal knowledge base, LLM wiki, knowledge management system."
+license: MIT
 ---
 
 # Setup LLM Wiki

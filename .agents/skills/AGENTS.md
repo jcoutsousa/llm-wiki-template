@@ -1,6 +1,10 @@
-# Setup LLM Wiki
+---
+name: setup-llm-wiki
+description: "Initialize and configure LLM-powered knowledge bases with directory structure, schema, and ingestion workflows. Platform-agnostic for any coding assistant. WHEN: set up wiki, personal knowledge base, LLM wiki, knowledge management system."
+license: MIT
+---
 
-## Quick Start
+# Setup LLM Wiki
 
 Configure an LLM Wiki by providing the topic and source types, then create the directory structure and schema file.
 
