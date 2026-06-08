@@ -54,3 +54,18 @@ A template for building personal knowledge bases using LLMs, based on Andrej Kar
 ## Note
 
 `.gitignore` excludes `raw/papers/*.md` (extracted text regenerated from PDFs)
+
+## Sync Scripts
+
+Automate wiki updates when new documents are added to `raw/`:
+
+- `scripts/wiki_sync.py` — detect new/modified `.md` or `.pdf` files, generate `wiki/sources/` pages, update `wiki/index.md` and `log.md`
+- `scripts/wiki_ingest_dedup.py` — remove duplicate source pages (e.g. `.md` + `.pdf` of the same document)
+
+Usage:
+```bash
+python3 scripts/wiki_sync.py --once     # single run
+python3 scripts/wiki_sync.py             # continuous polling (60s)
+python3 scripts/wiki_ingest_dedup.py     # preview duplicates
+python3 scripts/wiki_ingest_dedup.py --yes --rebuild-index  # remove and rebuild index
+```
