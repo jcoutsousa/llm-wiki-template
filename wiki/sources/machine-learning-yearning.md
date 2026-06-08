@@ -1,42 +1,77 @@
 ---
-authors: Andrew Ng
-year: 2018
-venue: deeplearning.ai
-tags: machine-learning, strategy, deep-learning
-key_entities: deeplearning-ai
-key_concepts: ML-strategy, error-analysis, bias-variance
-
+title: Machine Learning Yearning
+authors: 
+year: 
+venue: 
+tags: []
+category: papers
+key_entities: []
+key_concepts: []
+first_seen: 2026-06-08
+last_updated: 2026-06-08
 ---
 
 # Machine Learning Yearning
 
 ## Executive Summary
 
-A strategic guidebook for machine learning development focusing on how to make rapid progress through proper problem formulation, error analysis, and iterative improvement rather than technical implementation details.
+Machine Learning Yearning is a
+deeplearning.ai
+Deeplearning.AI project.
+
+© 2018 Andrew Ng. All Rights Reserved.
+
+Page 2
+
+Machine Learning Yearning-Draft
+
+Andrew Ng
+
+Table of Contents
+1 Why Machine Learning Strategy
+2 How to use this book to help your team
+3 Prerequisites and Notation
+4 Scale drives machine learning progress
+5 Your development and test sets
+6 Your dev and test sets should come from the same distribution
+7 How large do the dev/test sets need to be?
+8 Establish a single-number evaluation metric for your team to optimize
+9 Optimizing and satisficing metrics
+10 Having a dev set and metric speeds up iterations
+11 When to change dev/test sets and metrics
+12 Takeaways: Setting up development and test sets
+13 Build your first system quickly, then iterate
+14 Error analysis: Look at dev set examples to evaluate ideas
+15 Evaluating multiple ideas in parallel during error analysis
+16 Cleaning up mislabeled dev and test set examples
+17 If you have a large dev set, split it into two subsets, only one of which you look at
+18 How big should the Eyeball and Blackbox dev sets be?
+19 Takeaways: Basic error analysis
+20 Bias and Variance: The two big sources of error
+21 Examples of Bias and Variance
+22 Comparing to the optimal error rate
+23 Addressing Bias and Variance
+24 Bias vs. Variance tradeoff
+25 Techniques for reducing avoidable bias
+Page 3
+
+Machine Learning Yearning-Draft
+
+Andrew Ng
+
+26 Error analysis on the training set
+27 Techniques for reducing variance
+28 Diagnosing b…
 
 ## Key Findings
 
-- **Strategy over Tactics**: Focuses on ML strategy rather than coding or math
-- **Development Sets**: Emphasizes importance of proper dev/test set construction from same distribution
-- **Error Analysis**: Systematic approach to bias/variance diagnosis through learning curves
-- **End-to-End Learning**: Trade-offs between pipeline components vs. monolithic models
-
-## Main Topics
-
-1. Setting up development and test sets
-2. Basic error analysis techniques
-3. Bias and variance: The two big sources of error
-4. Techniques for reducing avoidable bias
-5. Techniques for reducing variance
-6. End-to-end learning considerations
+_(A ser preenchido durante ingestão manual ou automática com LLM)_
 
 ## Impact
 
-Influential guide for ML practitioners; provides framework for structuring ML projects and diagnosing problems before scaling.
+_(A ser preenchido)_
 
-## Wiki Updates
+## References
 
-- Created: [entities/andrew-ng.md](entities/andrew-ng.md)
-- Created: [entities/deeplearning-ai.md](entities/deeplearning-ai.md)
-- Created: [concepts/ML-strategy.md](concepts/ML-strategy.md)
-- Updated: [concepts/error-analysis.md](concepts/error-analysis.md)
+- Raw: [../raw/papers/Machine_Learning_Yearning_1699772242.pdf](../raw/papers/Machine_Learning_Yearning_1699772242.pdf)
+- First synced: 2026-06-08
