@@ -8,6 +8,9 @@ raw/extracted/
 .DS_Store
 Thumbs.db
 
+# Sync state (runtime artifact)
+.wiki_sync_state.json
+
 # Temporary files
 *.tmp
 *.temp
